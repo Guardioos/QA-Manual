@@ -1,0 +1,68 @@
+/* ===== Общие стили страницы ===== */
+#main-body {
+    background-color: #1b1b1b;
+    color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Основной контейнер (Box Model) ===== */
+#container {
+    width: 80%;
+    margin: 40px auto;          /* margin */
+    padding: 20px;              /* padding */
+    border: 3px solid #555;     /* border */
+    background-color: #2a2a2a;
+}
+
+/* ===== Заголовки ===== */
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #d4af37;
+}
+
+/* ===== Текст ===== */
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ===== Списки ===== */
+ul.text {
+    padding-left: 20px;
+}
+
+ul.text li {
+    margin-bottom: 10px;
+}
+
+/* ===== Выделение слов ===== */
+.highlight {
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+/* ===== Картинки ===== */
+.main-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 60%;
+}
+
+/* ===== Навигация ===== */
+#navigation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-link {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
